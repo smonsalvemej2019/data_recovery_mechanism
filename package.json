@@ -1,0 +1,23 @@
+{
+  "name": "data_recovery_mechanism",
+  "version": "1.0.0",
+  "description": "file_transfer_mechanism",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smonsalvemej2019/data_recovery_mechanism.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smonsalvemej2019/data_recovery_mechanism/issues"
+  },
+  "homepage": "https://github.com/smonsalvemej2019/data_recovery_mechanism#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^2.0.10"
+  }
+}
