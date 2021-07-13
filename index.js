@@ -1,4 +1,5 @@
 const axios = require('axios')
+const fileDownload =  require('js-file-download')
 
 var config = {
     method: 'get',
@@ -9,10 +10,19 @@ var config = {
     }
 };
 
+function downloadContent(myurl){
+    let url =`https://santiago-test.atlassian.net/wiki${myurl}`
+    console.log(url)
+    
+
+}
+
 axios(config)
-.then(function (response) {
-console.log(JSON.stringify(response.data));
+.then(function (res) {
+//console.log(res.data.results[0]._links.download);
+//console.log(JSON.parse(JSON.stringify(response.data)));
+downloadContent(res.data.results[0]._links.download)
 })
-.catch(function (error) {
-console.log(error);
+.catch(function (err) {
+console.log(err);
 });
