@@ -25,4 +25,6 @@ Both Confluence and MS Teams provide APIs to download and upload files respectiv
    - One Note
    - SharePoint
    - etc.
-2. What approach is best to import data? Does the services provide an API? what kind of format works best with the application?
+2. What approach is best to import data? 
+3. Does the services provide an API? W
+4. hat kind of format works best with the application?
